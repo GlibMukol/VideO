@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "start": "make -j2 start",
+        "install": "make -j2 install"
+    }
+}
