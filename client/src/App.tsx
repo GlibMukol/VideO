@@ -1,10 +1,3 @@
-function App() {
-  return (
-    <div className="App">
-      Hd
-      {`asd ${process.env.REACT_APP_PORT}`}
-    </div>
-  );
-}
-
+import { Router } from './Router'
+const App = () => <Router />
 export default App;
