@@ -1,9 +1,15 @@
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './style.css'
+import { Container, Row, Col } from 'react-bootstrap';
+
+import { RegistrationForm } from './registration/RegistrationForm';
+
 function App() {
   return (
-    <div className="App">
-      Hd
-      {`asd ${process.env.REACT_APP_PORT}`}
-    </div>
+    <Container fluid>
+          <RegistrationForm />
+    </Container>
   );
 }
 
